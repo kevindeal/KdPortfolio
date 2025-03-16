@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "components/projectsGrid/projectGrid.css";
+@import "components/aboutMe/aboutMe.css";
+@import "components/hero/hero.css";
+
+
+
+.footer-line {
+  background-image: linear-gradient(90deg, #38d3ff00, #fff3 50%, #38d3ff00);
+  width: 100%;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.footer-overlay-component {
+  background: #010d29;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.full-bleed-bg {
+  background: #010c27;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+
+img, video {
+  max-width: none!important;
+}
