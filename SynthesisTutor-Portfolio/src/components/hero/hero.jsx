@@ -22,7 +22,7 @@ export const Hero = () => {
           className="hero-heading text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
           aria-label="heading"
         >
-          Hi, {hiringManager}.<br></br> I would love to be the next
+          Hi, {hiringManager}<br></br> I would love to be the next
           <br />
           <div className="relative" style={{ minHeight: '1.2em' }}>
             <HeroTypeSpan text="Frontend Engineer" />
