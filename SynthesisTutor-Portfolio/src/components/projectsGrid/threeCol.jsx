@@ -4,6 +4,16 @@ export const ThreeCol = () => {
   const projects = [
     {
       id: 1,
+      name: "Super Smarthome Portal",
+      description: "30% of renters feel pressure to leave rental properties due to repairs being ingnored. I used modern technology to solve issues plagueing tenants and propert managers daily needs. I created a complaint feature that makes it easy for a tenant to log a complaint to be filled by property management. This feature also allowed for property management to manange complaints by type and log date each complaint was filed.",
+      link: "https://github.com/kevindeal/super-frontend/blob/main/super_gui/src/components/complaint/Complaint.tsx",
+      tags: ["React", "Typescript", "Java","SpringBoot","TailwindCSS"],
+      backGround: "bg-purple",
+      header: "bg-lavender text-black",
+      image: "/assets/supercomplaint.webp"
+    },
+    {
+      id: 2,
       name: "Upitt Admissons",
       description: "Re-Imagined college Admissions for Gen-Z. This was an oppurtunity to pick up new tooling with VueJS and run. The components I built for our reusable library not only won A W3 award for best admissions site. The design system brought life to something as boring as college admissions and made a connection to users of a younger generation facing the challenge of going to college for the first time at home.",
       link: "https://admissions.pitt.edu/",
@@ -13,7 +23,7 @@ export const ThreeCol = () => {
       image: "/assets/upitt.webp"
     },
     {
-      id: 2,
+      id: 3,
       name: "Custom LMS",
       description: "Stopped users from cheating their trainings.  Provided Frontend leadership to design and build a LMS that prevented users from cheating. Working alongside a backend dev I guided them through wordpress and all its capabilites. Learned a ton about the backend through thorough code reviews and reverse engineering a popular wordpress plugin.",
       link: "https://github.com/kevindeal/pls/blob/main/PLS-WP/template-parts/blocks/clientProfile/courseDetail.php",
@@ -22,16 +32,6 @@ export const ThreeCol = () => {
       header: "bg-light-gray text-white",
       image: "/assets/pls.webp"
     },
-    {
-      id: 3,
-      name: "Treasure Data",
-      description: "200 hours of work in Qa. Had to zero in on communication with indecisive stake holders. Learned the importance of writing documentation and formal recommendations and reports. Broke down large stories in Jira to give simplicity to complex issues across the product.",
-      link: "https://github.com/kevindeal/TD-react-gutenberg/blob/main/wp-content/themes/td2024/blocks/src/hero/save.js",
-      tags: ["React", "Wordpress", "ACF"],
-      backGround: "bg-purple",
-      header: "bg-lavender text-black",
-      image: "/assets/td.webp"
-    }
   ];
 
 

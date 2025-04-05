@@ -10,8 +10,8 @@ document.head.appendChild(link);
 
 export const Hero = () => {
   const hiringManager = '';
-  const teamNeed = 'Nuuly Frontend Engineer role';
-  const ctaUrl = '/assets/kdResume-1.png';
+  const teamNeed = 'Frontend Engineer role';
+  const ctaUrl = '/assets/Kd-wpresume.png';
   const ctaText = 'Download CV';
 
   return (
@@ -19,14 +19,14 @@ export const Hero = () => {
       <div className="container md:flex md:flex-row gap-10">
         <div className="hero-content z-10 flex-1">
         <h1
-          className="hero-heading text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
+          className="hero-heading text-nowrap text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
           aria-label="heading"
         >
-          Hi, {hiringManager}<br></br> I would love to be the next
+          Hi, {hiringManager}<br></br> I would love to be your next
           <br />
           <div className="relative" style={{ minHeight: '1.2em' }}>
             <HeroTypeSpan text="Frontend Engineer" />
-            <p style={{ whiteSpace: 'nowrap' }}>for Nuuly.</p>
+            {/* <p style={{ whiteSpace: 'nowrap' }}>for Nuuly.</p> */}
           </div>
         </h1>
           <picture className="mobile-img mt-10 md:hidden inline-block w-full h-auto aspect-w-16 aspect-h-9 border-2 border-white rounded-[20px] overflow-hidden">
@@ -49,7 +49,7 @@ export const Hero = () => {
             className="hero-subhead mt-5 md:m-0 mb-6 md:mb-6 md:py-[20px] text-lg md:text-2xl text-center md:text-left text-[#bfceff] font-normal"
             aria-label="subheading"
           >
-            I&apos;m Kevin Deal, Award winning Frontend Developer. I have collaborated with some of the best agencies and developers in the world that has prepared me for the {teamNeed}. I am up to the challenge of being the Frontend expert and go to for my team. Looking forward to doing the best work of my career with Nuuly. 
+            I&apos;m Kevin Deal, Award winning Frontend Developer. I have collaborated with some of the best agencies and developers in the world that has prepared me for the {teamNeed}. I am up to the challenge of being the Frontend expert and go to for my team. Looking forward to doing the best work of my career with you. 
           </p>
           <a
             href={ctaUrl}
