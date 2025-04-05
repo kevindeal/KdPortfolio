@@ -7,7 +7,7 @@ export const ThreeCol = () => {
       name: "Super Smarthome Portal",
       description: "30% of renters feel pressure to leave rental properties due to repairs being ingnored. I used modern technology to solve issues plagueing tenants and propert managers daily needs. I created a complaint feature that makes it easy for a tenant to log a complaint to be filled by property management. This feature also allowed for property management to manange complaints by type and log date each complaint was filed.",
       link: "https://github.com/kevindeal/super-frontend/blob/main/super_gui/src/components/complaint/Complaint.tsx",
-      tags: ["React", "Typescript", "Java","SpringBoot","TailwindCSS"],
+      tags: ["React", "Typescript", "Java","SpringBoot"],
       backGround: "bg-purple",
       header: "bg-lavender text-black",
       image: "/assets/supercomplaint.webp"
