@@ -19,7 +19,7 @@ export const Hero = () => {
       <div className="container md:flex md:flex-row gap-10">
         <div className="hero-content z-10 flex-1">
         <h1
-          className="hero-heading text-nowrap text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
+          className="hero-heading md:text-nowrap text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
           aria-label="heading"
         >
           Hi, {hiringManager}<br></br> I would love to be your next
