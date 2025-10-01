@@ -1,6 +1,6 @@
 import { Download } from "lucide-react";
 import { HeroTypeSpan} from "./heroTypeSpan";
-import heroImage from '/assets/kevinNnoa.webp';
+import heroImage from '/assets/kevnmike.webp';
 
 const link = document.createElement('link');
 link.rel = 'preload';
@@ -9,9 +9,9 @@ link.href = heroImage;
 document.head.appendChild(link);
 
 export const Hero = () => {
-  const hiringManager = '';
+  const hiringManager = 'Mike Jones';
   const teamNeed = 'Frontend Engineer role';
-  const ctaUrl = '/assets/Kd-wpresume.png';
+  const ctaUrl = 'assets/Resume202508250416-1.png';
   const ctaText = 'Download CV';
 
   return (
@@ -22,7 +22,7 @@ export const Hero = () => {
           className="hero-heading md:text-nowrap text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
           aria-label="heading"
         >
-          Hi, {hiringManager}<br></br> I would love to be your next
+          Who...? {hiringManager}<br></br> I will push ideas<br></br> to launch as Heyo's next 
           <br />
           <div className="relative" style={{ minHeight: '1.2em' }}>
             <HeroTypeSpan text="Frontend Engineer" />
@@ -49,7 +49,7 @@ export const Hero = () => {
             className="hero-subhead mt-5 md:m-0 mb-6 md:mb-6 md:py-[20px] text-lg md:text-2xl text-center md:text-left text-[#bfceff] font-normal"
             aria-label="subheading"
           >
-            I&apos;m Kevin Deal, Award winning Frontend Developer. I have collaborated with some of the best agencies and developers in the world that has prepared me for the {teamNeed}. I am up to the challenge of being the Frontend expert and go to for my team. Looking forward to doing the best work of my career with you. 
+            I&apos;m Kevin Deal, an award-winning Frontend Developer with 8 years of experience turning ideas into scalable digital products. From PHP and WordPress to Vue and React, I use the right tools to help businesses grow while championing community, collaboration, and team success. 
           </p>
           <a
             href={ctaUrl}
