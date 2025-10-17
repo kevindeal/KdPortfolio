@@ -1,6 +1,6 @@
 import { Download } from "lucide-react";
 import { HeroTypeSpan} from "./heroTypeSpan";
-import heroImage from '/assets/kevnmike.webp';
+import heroImage from '/assets/kevinNnoa.webp';
 
 const link = document.createElement('link');
 link.rel = 'preload';
@@ -22,10 +22,10 @@ export const Hero = () => {
           className="hero-heading md:text-nowrap text-4xl md:text-[58px] tracking-normal font-bold text-white leading-[1.1] text-center md:text-left md:pb-10"
           aria-label="heading"
         >
-          Who...? {hiringManager}<br></br> I will push ideas<br></br> to launch as Heyo's next 
+          Hi!, <br></br> I use technology<br></br> to launch ideas into
           <br />
           <div className="relative" style={{ minHeight: '1.2em' }}>
-            <HeroTypeSpan text="Frontend Engineer" />
+            <HeroTypeSpan text="digital products" />
             {/* <p style={{ whiteSpace: 'nowrap' }}>for Nuuly.</p> */}
           </div>
         </h1>
